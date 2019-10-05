@@ -1,4 +1,4 @@
-# aries1980.ansible-k9s
+# aries1980.k9s
 
 Ansible role to install the k9s Kubernetes terminal tool.
 
