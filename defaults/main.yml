@@ -1,21 +1,18 @@
 ---
-k9s_ver: 0.9.1
+k9s_ver: 0.20.5
 k9s_platform: x86_64
 k9s_mirror: https://github.com/derailed/k9s/releases/download
 
 k9s_checksums:
-  0.9.1:
+  0.20.5:
     Darwin:
-      i386: sha256:f7fc6fbdab2920790acccfbfef99a9805fc6bb7d688f0441db2d5d7678ebf5a9
-      x86_64: sha256:7103094896b218c515bb6af53ee4a2e0015a926a6e380d5b4e3ae74b39d06f91
+      x86_64: sha256:959fc6a021e41680b47cb13b2d5273869bc364334e16ab2fbf8dabd1184486dc
     Linux:
-      x86_64: sha256:7091c79045144cdddc9e92cee6c1415c0e623122a321baf15db0d0c6e81db6a1
-      arm64: sha256:c03fd59efea06d4fca0a6cd4fe3fcbc7049aa497fa50b190be85606add8d4520
-      armv6:  sha256:c20dfba1bb13b2a830100b781d65959d7fcc3d7ba0ff7d205ecc1f4f2e4790f0
-      armv7:  sha256:9ac45a2689b4bab86d0fc4146c0739eba051013cf4cc05d7bf34ab09d8d42f14
+      x86_64: sha256:12c03e2b3a3dcceda01c4296e618f825d017263c0ee7af15bb203620fa5c61a1
+      arm64: sha256:cee17d8efbc498cd2e931241a698f4028617d40eaedfe7dc2f1590622f737733
+      arm:  sha256:234e7f388b0caa43fe2d244930c41af1a8956edb66d9b6ab35b33dfcc68a0db0
     Windows:
-      x86_64:  sha256:fd53da86725db7ee172fbe0047f0a813f08fcaebec9737f3273ecc52abadbee2
-      i386:   sha256:c75e9110a2b5775b66304cfb3dd24cb2ee613a65bd6f216fc465918acc0ac170
+      x86_64:  sha256:1c3a722da42a156094ac647f6914d097d65a21c6a88273ed9867a95e7890e89e
 
 k9s_overwrite_existing: false
 k9s_privilege_escalate: true
